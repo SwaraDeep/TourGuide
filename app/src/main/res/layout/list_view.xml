@@ -5,8 +5,8 @@
     android:id="@+id/list_item"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:ignore="InvalidId">
+    tools:contentDescription="com.and.list"
+    android:orientation="vertical">
 
     <include
         layout="@layout/app_bar_main"
@@ -21,5 +21,4 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer" />
-
 </ListView>

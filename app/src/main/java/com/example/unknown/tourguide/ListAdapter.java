@@ -25,8 +25,7 @@ public class ListAdapter extends ArrayAdapter{
         Image currentimage = (Image) getItem(position);
         if(listview == null){
             listview = LayoutInflater.from(getContext()).inflate(
-                    R.layout.list_view, parent, false
-            );
+                    R.layout.item, parent, false);
         }
         Image imageName = (Image) getItem(position);
         TextView name = (TextView) listview.findViewById(R.id.text_view);
